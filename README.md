@@ -9,6 +9,9 @@ Todos is a simple todo list app designed to help you keep track of your daily ta
   <img width="257" alt="Screenshot 2024-02-24 214256" src="https://github.com/sadique21hs/Todos/assets/152019380/58ed7c68-d49c-4a4a-b88b-15d717f4b6a5">
   
 - **Delete Tasks**: Once a task is completed, simply tap the delete button next to it to remove it from your list.
+  
+  <img width="261" alt="Screenshot 2024-02-24 214354" src="https://github.com/sadique21hs/Todos/assets/152019380/da15e729-86e6-4123-8f54-25c84397ec70">
+
 - **Intuitive Interface**: The app provides a user-friendly experience, making it easy to manage your tasks with just a few taps.
 - **Customizable**: You can customize the app by changing the app bar's background color and centering the title text according to your preferences.
 
