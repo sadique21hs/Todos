@@ -28,7 +28,7 @@ class _TodoListState extends State<TodoList> {
   TextEditingController _textController = TextEditingController();
 
   void _addTodoItem(String task) {
-    if (task == "") {
+    if (task.trim().isNotEmpty) {
       setState(() {
         _todoItems.add(task);
         _textController.clear();
