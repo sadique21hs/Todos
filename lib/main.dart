@@ -63,7 +63,7 @@ class _TodoListState extends State<TodoList> {
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
         title: Text(
-          'MYTODO LIST',
+          'MY TODO LIST',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
