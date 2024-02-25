@@ -28,11 +28,17 @@ class _TodoListState extends State<TodoList> {
   TextEditingController _textController = TextEditingController();
 
   void _addTodoItem(String task) {
-    if (task.isNotEmpty) {
+    if (task.trim().isNotEmpty) {
       setState(() {
         _todoItems.add(task);
+        _textController.clear();
       });
-      _textController.clear();
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text("Empty value is not allow!!!"),
+        ),
+      );
     }
   }
 
