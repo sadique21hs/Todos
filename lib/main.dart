@@ -9,9 +9,6 @@ class TodoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Todo List App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: TodoList(),
     );
   }
@@ -67,7 +64,7 @@ class _TodoListState extends State<TodoList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Colors.blue,
         title: Text(
           'MY TODO LIST',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
